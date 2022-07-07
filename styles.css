@@ -178,6 +178,7 @@ main{
         background-color: var(--cyan);
         padding-left: 2rem;
         height: 184px;
+        border-bottom-left-radius: 7px;
     }
     .item2 .title{
         font-size: 1.5rem;
@@ -185,5 +186,11 @@ main{
     .item2 button{
         margin-right: 2rem;
         width: 78%;
+    }
+
+    /*ITEM 3*/
+    .item3{
+        padding-left: 2rem;
+        border-bottom-left-radius: 0;
     }
 }
