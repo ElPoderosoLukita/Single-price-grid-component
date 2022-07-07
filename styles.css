@@ -1,0 +1,15 @@
+:root{
+    --cyan: hsl(179, 62%, 43%);
+    --brightyellow: hsl(71, 73%, 54%);
+    --lighthray: hsl(204, 43%, 93%);
+    --grayishnlue: hsl(218, 22%, 67%);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Karla', sans-serif;
+}
