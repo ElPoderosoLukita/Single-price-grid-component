@@ -13,3 +13,37 @@ html{
     font-size: 62.5%;
     font-family: 'Karla', sans-serif;
 }
+body{
+    background-color: var(--lighthray);
+}
+main{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.item1{
+    background-color: white;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+.item1 .title{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--cyan);
+    padding-left: 1.36rem;
+    padding-top: 15px;
+}
+.item1 .days{
+    margin-top: 12px;
+    font-size: 1.4rem;
+    color: var(--brightyellow);   
+    padding-left: 1.36rem;
+}
+.item1 .description{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 12px;
+    font-size: 1.2rem;
+    color: var(--grayishnlue);
+    padding-bottom: 20px;
+}
