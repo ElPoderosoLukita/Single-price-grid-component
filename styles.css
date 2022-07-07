@@ -29,6 +29,9 @@ main{
     border-top-left-radius: 7px;
     border-top-right-radius: 7px;
 }
+.item1 .desktop{
+    display: none;
+}
 .item1 .title{
     font-size: 1.8rem;
     font-weight: 700;
@@ -36,11 +39,14 @@ main{
     padding-left: 1.36rem;
     padding-top: 15px;
 }
-.item1 .days{
+.item1 .days-mobile{
     margin-top: 12px;
     font-size: 1.4rem;
     color: var(--brightyellow);   
     padding-left: 1.36rem;
+}
+.item1 .days-desktop{
+    display: none;
 }
 .item1 .description{
     width: 90%;
@@ -74,7 +80,7 @@ main{
     color: white;
 }
 .item2 .price-container .price{
-    color: var(--grayishnlue);
+    color: var(--lighthray);
     padding-left: 10px;
 }
 .item2 .access{
@@ -118,4 +124,73 @@ main{
     font-size: 1.2rem;
     color: var(--lighthray);
     padding-bottom: 20px;
+}
+
+/*MEDIA QUERIE 1440 PX*/
+@media (min-width:1440px) {
+    main{
+        margin: 0 auto;
+        width: 50%;
+        display: grid;
+        grid-template-columns: 255px 255px;
+        /* grid-template-rows: 100px 100px; */
+    }
+
+    /*ITEM 1*/
+    .item1{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        padding-left: 2rem;
+    }
+    .item1 .title{
+        font-size: 1.8rem;
+        font-weight: 700;
+        color: var(--cyan);
+        padding-left: 1.36rem;
+        padding-top: 15px;
+    }
+    .item1 .days-mobile{
+        display: none;
+    }
+    .item1 .days-desktop{
+        display: block;
+        margin-top: 12px;
+        font-size: 1.4rem;
+        color: var(--brightyellow);   
+        padding-left: 1.36rem;
+    }
+    .item1 .description .mobile{
+        display: none;
+    }
+    .item1 .description .desktop{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 12px;
+        margin-left: -1.36rem;
+        font-size: 1.2rem;
+        color: var(--grayishnlue);
+        padding-bottom: 20px;
+    } 
+
+    /*ITEM 2*/
+    .item2{
+        background-color: var(--cyan);
+        padding-left: 2rem;
+        height: 184px;
+        border-bottom-left-radius: 7px;
+    }
+    .item2 .title{
+        font-size: 1.5rem;
+    }
+    .item2 button{
+        margin-right: 2rem;
+        width: 78%;
+    }
+
+    /*ITEM 3*/
+    .item3{
+        padding-left: 2rem;
+        border-bottom-left-radius: 0;
+    }
 }
