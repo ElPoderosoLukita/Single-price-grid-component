@@ -174,5 +174,16 @@ main{
     } 
 
     /*ITEM 2*/
-
+    .item2{
+        background-color: var(--cyan);
+        padding-left: 2rem;
+        height: 184px;
+    }
+    .item2 .title{
+        font-size: 1.5rem;
+    }
+    .item2 button{
+        margin-right: 2rem;
+        width: 78%;
+    }
 }
