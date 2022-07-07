@@ -1,6 +1,6 @@
 :root{
     --cyan: hsl(179, 62%, 43%);
-    --lightcyan: hsl(180, 52%, 64%);
+    --lightcyan: hsl(180, 53%, 60%);
     --brightyellow: hsl(71, 73%, 54%);
     --lighthray: hsl(204, 43%, 93%);
     --grayishnlue: hsl(218, 22%, 67%);
@@ -54,6 +54,7 @@ main{
 /*DISEÑO ITEM 2*/
 .item2{
     background-color: var(--cyan);
+    height: 184px;
 }
 .item2 .title{
     font-size: 1.8rem;
@@ -94,4 +95,27 @@ main{
     border: none;
     border-radius: 5px;
     margin-bottom: 20px;
+}
+
+/*DISEÑO ITEM 3*/
+.item3{
+    background-color: var(--lightcyan);
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    height: 184px;
+}
+.item3 .title{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: white;
+    padding-left: 1.36rem;
+    padding-top: 15px;
+}
+.item3 .description{
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 25px;
+    font-size: 1.2rem;
+    color: var(--lighthray);
+    padding-bottom: 20px;
 }
